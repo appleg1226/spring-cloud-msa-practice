@@ -17,7 +17,7 @@
 8. Zipkin 적용하여 수집 / ui 대시보드 띄우기
 <br/>
 
-# 아키텍쳐
+# 아키텍쳐(간단하게 만들어본 설계도)
 <img src="/architecture.png">
 
 Spring Cloud에 대한 책을 읽고 다음의 구조를 목표로 설계를 진행했다.
