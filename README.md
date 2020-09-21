@@ -2,7 +2,7 @@
 
 # 개발 spec
 - java8, maven
-- spring boot: 8개의 어플리케이션 모두 스프링 부트 및 starter dependency로 구현. 모듈화하여 github에 
+- spring boot: 8개의 어플리케이션 모두 스프링 부트 및 starter dependency로 구현. 모듈화하여 github에 업로드
 - RabbitMQ: Docker로 생성
 <br/>
 
