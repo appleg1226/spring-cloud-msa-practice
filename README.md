@@ -6,6 +6,16 @@
 - RabbitMQ: Docker로 생성
 <br/>
 
+# 구현 순서
+1. 서비스 어플리케이션 작성
+2. 유레카 연동
+3. Zuul 연동하여 routing 테스트
+4. Ribbon 이용 client-side 로드밸런싱 테스트
+5. Hystrix 적용
+6. 서버 간 메시징 적용(RabbitMQ)
+7. Sleuth 적용
+8. Zipkin 적용하여 수집 / ui 대시보드 띄우기
+
 # 아키텍쳐
 <img src="/architecture.png">
 
