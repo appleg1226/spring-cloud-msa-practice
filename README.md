@@ -1,5 +1,9 @@
-# spring-cloud-msa-practice
-spring cloud 프로젝트를 이용 간단한 msa 환경 구성하기
+# Spring Cloud MSA Practice
+
+# 개발 spec
+- java8, maven
+- spring boot: 8개의 어플리케이션 모두 스프링 부트 및 starter dependency로 구현. 모듈화하여 github에 
+- RabbitMQ: Docker로 생성
 
 # 아키텍쳐
 <img src="/architecture.png">
