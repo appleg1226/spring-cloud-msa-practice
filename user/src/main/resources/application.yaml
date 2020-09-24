@@ -1,18 +1,31 @@
 spring:
   profiles:
-    active: server2
+    active: server1
 
 ---
 spring:
   profiles: server1
+  application:
+    name: user-service
 
 server:
   port: 8083
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 
 ---
 spring:
   profiles: server2
+  application:
+    name: user-service
 
 server:
   port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
