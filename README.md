@@ -7,14 +7,15 @@
 <br/>
 
 # 구현 순서(일정)
-- [ ] 서비스 어플리케이션 작성  
-- [ ] 유레카 연동  
-- [ ] Zuul 연동하여 routing 테스트  
-- [ ] Ribbon 이용 client-side 로드밸런싱 테스트  
-- [ ] Hystrix 적용  
-- [ ] 서버 간 메시징 적용(RabbitMQ)  
-- [ ] Sleuth 적용  
-- [ ] Zipkin 적용하여 수집 / ui 대시보드 띄우기  
+
+- [x] 서비스 어플리케이션 작성
+- [x] 유레카 연동
+- [x] Zuul 연동하여 routing 테스트
+- [x] Ribbon 이용 client-side 로드밸런싱 테스트
+- [x] Hystrix 적용
+- [ ] 서버 간 메시징 적용(RabbitMQ)
+- [ ] Sleuth 적용
+- [ ] Zipkin 적용하여 수집 / ui 대시보드 띄우기
 <br/>
 
 # 아키텍쳐(간단하게 만들어본 설계도)
