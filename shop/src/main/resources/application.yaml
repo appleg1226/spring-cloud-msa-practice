@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: server2
+
+---
+spring:
+  profiles: server1
+
+server:
+  port: 8081
+
+
+---
+spring:
+  profiles: server2
+
+server:
+  port: 8082
