@@ -17,7 +17,7 @@ class UserRepositoryTest {
 
     @Test
     public void testRepo(){
-        userRepository.save(new User("1", "chong", "suwon"));
+        userRepository.save(new User("1", "chong", "suwon", 1000L));
 
         userRepository.findById("1").ifPresent(user -> log.info(user.toString()));
     }

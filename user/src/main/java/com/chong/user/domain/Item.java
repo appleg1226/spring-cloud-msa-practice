@@ -11,10 +11,16 @@ import javax.persistence.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Item {
+
     @Id
     private String id;
-    private String name;
-    private String address;
-    private Long money;
+    private String itemName;
+    private Category category;
+    private Long cost;
+    private Long stock;
+
+    public static enum Category{
+        FOOD, DEVICE, CLOTHES
+    }
 }

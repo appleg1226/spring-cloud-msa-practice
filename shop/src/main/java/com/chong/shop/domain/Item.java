@@ -17,6 +17,7 @@ public class Item {
     private String id;
     private String itemName;
     private Category category;
+    private Long cost;
     private Long stock;
 
     public static enum Category{

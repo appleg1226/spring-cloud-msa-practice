@@ -3,7 +3,7 @@
 # 개발 spec
 - java8, maven
 - spring boot: 8개의 어플리케이션 모두 스프링 부트 및 starter dependency로 구현. 모듈화하여 github에 업로드
-- RabbitMQ: Docker로 
+- RabbitMQ: Docker로 생성
 <br/>
 
 # 구현 순서(일정)
@@ -13,9 +13,10 @@
 - [x] Zuul 연동하여 routing 테스트
 - [x] Ribbon 이용 client-side 로드밸런싱 테스트
 - [x] Hystrix 적용
-- [ ] 서버 간 메시징 적용(RabbitMQ)
+- [x] 서버 간 메시징 적용(RabbitMQ)
 - [ ] Sleuth 적용
 - [ ] Zipkin 적용하여 수집 / ui 대시보드 띄우기
+- [ ] Config 서버 생성 / github 연동
 <br/>
 
 # 아키텍쳐(간단하게 만들어본 설계도)
