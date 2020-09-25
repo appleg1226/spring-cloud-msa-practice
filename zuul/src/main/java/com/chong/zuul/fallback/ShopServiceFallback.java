@@ -1,4 +1,4 @@
-package fallback;
+package com.chong.zuul.fallback;
 
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;

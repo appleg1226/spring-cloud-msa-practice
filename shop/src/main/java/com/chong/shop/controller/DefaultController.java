@@ -36,12 +36,14 @@ public class DefaultController {
 
     @GetMapping("/iteminfo/all")
     public ResponseEntity<Iterable<Item>> getAllItem(){
+        log.info("all item info called");
         Iterable<Item> result = itemRepository.findAll();
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
     @PostMapping("/iteminfo/add")
     public ResponseEntity<String> addItem(@RequestBody Item item){
+        log.info("item info saved");
         itemRepository.save(item);
         return new ResponseEntity<>("saved", HttpStatus.OK);
     }

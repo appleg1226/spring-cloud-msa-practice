@@ -19,7 +19,6 @@
         <module>user</module>
         <module>shop</module>
         <module>config</module>
-        <module>zipkin</module>
     </modules>
 
 

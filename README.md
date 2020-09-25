@@ -14,8 +14,8 @@
 - [x] Ribbon 이용 client-side 로드밸런싱 테스트
 - [x] Hystrix 적용
 - [x] 서버 간 메시징 적용(RabbitMQ)
-- [ ] Sleuth 적용
-- [ ] Zipkin 적용하여 수집 / ui 대시보드 띄우기
+- [x] Sleuth 적용
+- [x] Zipkin 적용하여 수집 / ui 대시보드 띄우기
 - [ ] Config 서버 생성 / github 연동
 <br/>
 

@@ -25,12 +25,14 @@ public class DefaultController {
 
     @GetMapping("/userinfo/all")
     public ResponseEntity<Iterable<User>> getAlluser(){
+        log.info("all user info called");
         Iterable<User> result = userRepository.findAll();
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
     @PostMapping("/userinfo/add")
     public ResponseEntity<String> addUser(@RequestBody User user){
+        log.info("user info saved");
         userRepository.save(user);
         return new ResponseEntity<>("saved", HttpStatus.OK);
     }
